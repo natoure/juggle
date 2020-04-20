@@ -1,0 +1,24 @@
+@font-face {
+    font-family:'digital-clock-font';
+    src: url("/public/font/digital-7.ttf");
+}
+@font-face {
+    font-family:'bps';
+    src: url("/public/font/bps.otf");
+}
+textarea {
+    resize: none;
+    text-align:right;
+    font-family:'digital-clock-font';
+    vertical-align: text-bottom;
+}
+.dg-font {
+    font-family:'digital-clock-font';
+    font-size: 30px;
+}
+.bps-font {
+    font-family: 'bps';
+}
+.icon {
+    font-size: 20px;
+}

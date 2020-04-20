@@ -1,0 +1,75 @@
+<div class="card mx-auto border-4 bg-light shadow-sm col-sm-6 col-lg-4" >
+    <div class="card-body py-3 px-1">
+        <textarea type="text" rows="2" cols="50" style="font-size:20pt" class="form-control shadow-sm bg-white px-3 py-0" id="input-font" aria-describedby="emailHelp" style="height: 4rem;" placeholder="0" disabled></textarea>
+        <div class="row py-3">
+            <div class="col">
+                <button type="button" name="input" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" onclick="OnOff()" style="height: 4rem;">OFF</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="c" onclick="clr()" style="height: 4rem;">AC</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="%" onclick="show('%')" style="height: 4rem;">MOD</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" onclick="del()" style="height: 4rem;"><span class="material-icons-outlined icon">backspace</span></button>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="7" onclick="show('7')" style="height: 4rem;">7</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="8" onclick="show('8')" style="height: 4rem;">8</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="9" onclick="show('9')" style="height: 4rem;">9</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="+" onclick="show('+')" style="height: 4rem;">&plus;</button>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="4" onclick="show('4')" style="height: 4rem;">4</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="5" onclick="show('5')" style="height: 4rem;">5</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="6" onclick="show('6')" style="height: 4rem;">6</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="-" onclick="show('-')" style="height: 4rem;">-</button>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="1" onclick="show('1')" style="height: 4rem;">1</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="2" onclick="show('2')" style="height: 4rem;">2</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="3" onclick="show('3')" style="height: 4rem;">3</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="*" onclick="show('*')" style="height: 4rem;">&times</button>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="0" onclick="show('0')" style="height: 4rem;">0</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="." onclick="show('.')" style="height: 4rem;">.</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="=" onclick="solve()" style="height: 4rem;">=</button>
+            </div>
+            <div class="col">
+                <button type="button" class="dg-font border-0 btn-dark rounded btn-block shadow-sm" value="/" onclick="show('/')" style="height: 4rem;">&divide</button>
+            </div>
+        </div>
+    </div>
+</div>
